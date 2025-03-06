@@ -14,6 +14,7 @@ body {
     font-size: 2rem;
     font-family: var(--fuente-principal);
     line-height: 1.5;
+    scroll-behavior: smooth;
 }
 img {
     max-width: 100%;
@@ -364,6 +365,16 @@ img {
     .proyecto {
         width: 100%; 
     }
+}
+.proyecto__descripcion{
+    color: #545456;
+    font-size: 1.9rem;
+}
+.proyecto__tecnologias{
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    color: #274b52;
+    font-weight: bold;
 }
 
 /* Estilos generales */
